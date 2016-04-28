@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+	<script>
+// Part 2 of the homework
+	function popup(surprise){
+		if (surprise === 5){
+			return alert("This is an alert")
+		}
+	}
+	popup(5);	
+
+
+	function logging (con) {
+		if (con ===2){
+			return console.log("This shows up in the console")
+		}
+	}
+
+	logging(2)
+
+	function sharks(danger){
+		if (danger === "yes"){
+			return alert("Watch out for sharks!")
+		}else{
+			return alert("It is safe to swim")
+		}
+
+	}
+
+		sharks("no")
+
+//Part 3 of the homework
+
+// 3.3 adding variables
+	function addnum (x, y) {
+		return x + y;
+	}
+	console.log(addnum(5, 8));
+	console.log(addnum("octopus", " rule!"))
+
+	
+
+// 3.4 (Multidimensional arrays)
+
+	var oceanLife = [["fish", "cephlapods"], ["mammals", "seaweed", "algae"]];
+		console.log(oceanLife[0][1]);
+		console.log(oceanLife[1][2]);
+
+// 3.5 checking if a var < 10
+
+	//var num = 11
+
+	function check(num){
+		if (num < 10){
+			return alert("Your variable is less than 10")
+		}else{
+			return console.log(num, "is greater than 10")
+		}
+	}
+	check(11);
+
+// 3.9 function with no arguments
+	function empty(){
+		return console.log("i have no arguments")
+	}
+
+	empty();
+	
+
+	</script>
+
+
+
+</body>
+</html>
